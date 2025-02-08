@@ -1,0 +1,23 @@
+{
+    "name": "alexdoan/laravel-mautic-api",
+    "description": "Free and Open Source Marketing Automation API",
+    "license": "MIT",
+    "keywords": ["mautic", "laravel", "laravel 8", "api", "sync", "automation", "email", "marketing"],
+    "authors": [{
+        "name": "Mateus Costa",
+        "email": "mateus@costamateus.com.br"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2|^7.3|^8.0",
+        "laravel/framework": "^7.0",
+        "mautic/api-library": "^3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "graham-campbell/manager": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Triibo\\Mautic\\": "src/"
+        }
+    }
+}
